@@ -7,7 +7,6 @@
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    /* Центрування заголовку */
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
@@ -23,13 +22,17 @@
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* Обов'язкова текстова обгортка під зображенням */
-.team-card-content {
+/* Назва класу тепер чітко відповідає HTML: .team-info */
+.team-info {
     padding: 32px 16px;
+    /* Внутрішні відступи за вимогою ментора */
     text-align: center;
+    /* Вирівнювання тексту по центру */
 }
 
 .team-subtitle {
