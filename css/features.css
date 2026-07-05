@@ -1,0 +1,21 @@
+.features{
+    padding: 120px 156px;
+}
+
+.features-title {
+    margin-bottom: 72px;
+}
+
+.features-list{
+    display: flex;
+    gap: 24px;
+}
+
+.features-item{
+    width: calc((100% - 72px) /4);
+}
+
+.features-subtitle {
+    margin-bottom: 8px;
+}
+

@@ -1,0 +1,16 @@
+.footer {
+    background-color: #2e2f42;
+    padding: 100px 156px;
+}
+
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    line-height: 1.5;
+    width: 264px;
+}

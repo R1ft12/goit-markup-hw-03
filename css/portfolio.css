@@ -1,0 +1,26 @@
+.portfolio {
+    padding: 120px 156px;
+}
+
+.portfolio-title {
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px *2) /3);
+}
+
+.portfolio-subtitle {
+    margin: 32px 0 8px 16px;
+}
+
+.portfolio-text {
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
